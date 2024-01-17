@@ -10,7 +10,6 @@ const connectToDatabase = async () => {
     }
   } catch (error) {
     console.log("error in connectToDatabase", error);
-    throw error;
   }
 };
 
